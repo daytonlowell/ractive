@@ -212,7 +212,7 @@ See also the changes from 0.10.11 / 1.0.1 below.
 	* Boolean attributes are now passed to macros as `true` rather than empty strings
 	* Whitespace removal during parsing is no longer overzealous (#3239)
 	* Decorators that are unrendered before they fully render will no longer try to render and throw (#3241)
-	* References to both `@this.root` and `@this` for components where `@this.root === @this` will no longer release z̪͆ͧ͂͊̽ͩ̿a̖͖l̂̍́ͭͨ̾̓gͥͨö̫̘̞̠͓͎̬̅ͣ̐͋
+	* References to both `@this.root` and `@this` for components where `@this.root === @this` will no longer release z̪͆ͧ͂͊̽ͩ̿a̖͖l̂̍́ͭͨ̾̓gͥͨö̫̘̞̠͓͎̬̅ͣ̐͋
 	* Checking for a listener from a context considers the an immediate component ancestor before the ancestor element (#3251)
 
 * New features
@@ -348,7 +348,7 @@ See also the changes from 0.10.11 / 1.0.1 below.
 	* `<script>` tags in templates are automatically closed at the end of input because HTML doesn't special-case nested script tags (#3125)
 
 * Other changes
-	* The runtime build once again excludes the parser code, which managed to sneak back in amidst some build process udpates.
+	* The runtime build once again excludes the parser code, which managed to sneak back in amidst some build process updates.
 
 
 # 0.9.8
